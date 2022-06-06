@@ -5,7 +5,7 @@
 /**
  * main - entry point
  *
- * description: print a num and it last digit 
+ * description: print a num and it last digit
  * last digit is 0 > 5, or < 6 and not 0.
  * Return: 0
  */
@@ -24,4 +24,3 @@ printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 
 return (0);
 }
-	
