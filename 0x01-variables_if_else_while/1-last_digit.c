@@ -13,7 +13,7 @@ int main(void)
 {
 int n;
 
-srand(time(0);
+srand(time(0));
 n = rand() - RAND_MAX / 2;
 printf("last digit of %d %s\n", n, n % 10,
 ((n % 10) == 0) ? "and is 0"
