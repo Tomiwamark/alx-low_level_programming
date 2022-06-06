@@ -6,7 +6,7 @@
  * description: print the lowercase alphabet
  * Return; 0
  */
-int main()
+int main(void)
 {
 int c;
 
