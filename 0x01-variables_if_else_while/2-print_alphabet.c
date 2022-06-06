@@ -2,7 +2,6 @@
 /**
  * main - entry point
  *
- * description: print the lowercase alphabet
  * Return; 0
  */
 int main(void)
@@ -10,10 +9,11 @@ int main(void)
 {
 char c;
 
-for (c = 0; c < 26; ++c)
-putchar('a' + c);
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
 
 putchar('\n');
+
 return (0);
 
 }
