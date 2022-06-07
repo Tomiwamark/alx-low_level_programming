@@ -15,7 +15,7 @@ continue;
 else if (c == 'e')
 continue;
 
-putchar(c)
+putchar(c);
 
 putchar('\n');
 
