@@ -3,7 +3,7 @@
  * main - entry point
  *
  * Description: Print Lower and Upper alphabet on the same line
- * Return; 0
+ * Return: 0
  */
 int main(void)
 {
