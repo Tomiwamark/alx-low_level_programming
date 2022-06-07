@@ -5,15 +5,12 @@
  * Return: Always 0
  */
 int main(void)
-
 {
-int d;
-for (d = 0; d < 10; d++)
+int i;
+for (i = 48; i <=57; i++)
 {
-printf("%d", d);
+putchar (i);
 }
-printf("\n");
-
+putchar ("\n");
 return (0);
-
 }
